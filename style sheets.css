@@ -1,0 +1,312 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#AppLogo img {
+    display: flex;
+    width: 78px;
+    margin: 17px 35px;
+}
+
+#navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    /* background-color: #fad0d0; */
+}
+
+/* #navbar ul{
+    display: flex;
+} */
+#navbar::before {
+    content: "";
+    background-color: #95909080;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#navbar ul li {
+    display: inline-block;
+    width: 96px;
+    margin: 31px 23px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    margin: 11px 0px;
+    width: 97px;
+    color: black;
+    border-radius: 20px;
+    padding: 3px 3px;
+    /* font-size: 23px; */
+    /* border: 2px solid red; */
+}
+
+#navbar ul li a:hover {
+    color: rgb(183, 39, 39);
+    transform: scale(1.04);
+    /* font-size: 1.35rem; */
+}
+
+ul li a #item-1 {
+    margin: 120px 12px;
+}
+
+/* Home Section */
+#Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 73px 31px;
+    height: 590px;
+}
+
+#Home::before {
+    content: "";
+    position: absolute;
+    background: url('../Pinterest 2.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    font-family: 'DM Serif Display', serif;
+}
+
+#Home h1 {
+    text-align: center;
+}
+
+#Home p {
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+#Home button:hover {
+    background-color: rgba(239, 214, 169, 0.462);
+    font-size: 1.24rem;
+    cursor: pointer;
+}
+
+/* Services Section */
+
+#Services {
+    display: flex;
+    font-family: 'Noto Serif', serif;
+    /* font-family: 'DM Serif Display', serif; */
+    
+}
+#Services::before{
+    content: "";
+    position: absolute;
+    background-color: #fffcf0;
+    height: 90%;
+    /* margin: 1px 0px; */
+    padding-bottom: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.750;
+}
+.box {
+    border: 2px solid black;
+    display: inline-block;
+    flex-direction: column;
+    width: 313px;
+    padding: 53px;
+    margin: 7px 37px;
+    border-radius: 23px;
+    height: 470px;
+    background-color: rgb(150 141 130 / 7%);
+    padding-bottom: 50px;
+    font-size: 1.06rem;
+    font-family: 'Noto Serif Devanagari', serif;
+    /* position: relative;
+    top: 0px; */
+}
+.box:hover{
+    transform: scale(1.001);
+
+}
+
+.box img {
+    display: block;
+    width: 306px;
+    margin: auto;
+    height: 244px;
+    padding-top: 14px;
+    /* border: 2px solid hotpink; */
+}
+
+.box h2 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Noto Serif', serif;
+}
+
+.box p {
+    display: flex;
+    padding: 2px 2px;
+    width: 328px;
+}
+/* Menu Section */
+.h-quartenary-center
+
+
+/* Client Section */
+#client-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    /* width: 200px; */
+    /* border: 2px solid black; */
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    width: 165px;
+    padding: 0px;
+    margin: 0px 50px;
+    border-radius: 23px;
+    height: 241px;
+    /* background-color: rgb(150 141 130 / 7%); */
+    padding-bottom: 128px;
+}
+.circle img{
+    /* border: 2px solid red; */
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 140px;
+    padding: 24px;
+    margin: 50px;
+}
+.circle img:hover{
+    /* width: 165px; */
+    transform: scale(1.05);
+}
+#client-container::before {
+    content: "";
+    position: absolute;
+    background: url('macarons.png') no-repeat center center/cover;
+    height: 66.5%;
+    margin: 41px 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.818;
+}
+/* Menu */
+
+
+/* Contact Us */
+#Contact-us-container::before{
+    content: "";
+    position: absolute;
+    /* background: url('4u8bh3xn.png') no-repeat center center/cover; */
+    background-color: #fffcf0;
+    height: 90%;
+    /* margin: 1px 0px; */
+    padding-bottom: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.750;
+}
+form{
+    /* border: 2px solid firebrick; */
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 1.2rem;
+}
+
+label{
+    margin: auto;
+    display: flex;
+    width: 600px;
+    padding-top: 14px;
+    font-weight: 600;
+}
+input{
+    margin: auto;
+    display: flex;
+    width: 600px;
+    height: 27px;
+    border-radius: 5px;
+    border: 2px solid rgba(150, 141, 130, 0.407);;
+}
+
+#Submit{
+    margin-top: 19px;
+    margin-bottom: 19px;
+    background-color: #efe6e6;
+    padding-left: 267px;
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 1.1rem;
+}
+
+#Submit:hover{
+    background-color: rgba(233, 228, 216, 0.841);
+    font-size: 1.14rem;
+    cursor: pointer;
+    /* font-weight: 600; */
+    transform: scale(1.02);
+
+}
+
+/* Utility Classes */
+
+.h-primary {
+    font-size: 2.8rem;
+    padding: 17px 12px;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    font-family: 'Noto Serif Devanagari', serif;
+}
+
+.btn {
+    padding: 3px 22px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 12px 12px;
+    border: 2px solid black;
+    font-family: 'DM Serif Text', serif;
+    border-radius: 12px;
+    
+}
+
+.center {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    /* top: 0px; */
+}
+
+.h-tertiary-centre{
+    /* border: 2px solid red; */
+    display: block;
+    width: 213px;
+    margin: auto;
+    font-size: 2.8rem;
+    padding-top: 90px;
+    padding-bottom: 12px;
+}
+

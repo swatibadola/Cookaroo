@@ -1,0 +1,72 @@
+body{
+    background-color: red;
+}
+/* * {
+    margin: auto;
+    padding: 0px;
+    display: block;
+} */
+
+/* Navigation */
+
+
+#navbar{
+    flex-direction: column;
+}
+
+/* Home Section */
+
+#home{
+    /* height: 428px; */
+    /* padding: 77px 10px; */
+    margin: 146px 34px;
+    height: 446px
+}
+#home::before{
+    height: 480px;
+}
+#AppLogo img{
+    display: block;
+    width: 78px;
+    margin: auto;
+    padding-top: 10px;
+}
+#Home p {
+    font-size: 1.1rem;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Services Section */
+
+#Services{
+    flex-direction: column;
+    display: flex;
+
+}
+#services.box{
+
+}
+
+
+/* Client Section */
+#client-container{
+    overflow: hidden;
+}
+
+
+/* Contact Us */
+
+
+
+
+/* Footer */
+
+/* Utility Classes */
+.h-primary {
+    font-size: 1.8rem;
+    padding: 30px 106px;
+    /* background-color: cadetblue; */
+    margin-top: 93px;
+}
